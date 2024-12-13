@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 import HomePage from "./Components/HomePage";
 import QuestionList from "./Components/QuestionList";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 
 const questionList = [
   {
@@ -100,27 +100,27 @@ const questionList = [
     answer: "4-4",
   },
   {
-  //   Qn: 5,
-  //   question: "What is the correct syntax to write an HTML comment?",
-  //   options: [
-  //     {
-  //       id: "5-1",
-  //       text: "<!--Comment-->",
-  //     },
-  //     {
-  //       id: "5-2",
-  //       text: "//Coment",
-  //     },
-  //     {
-  //       id: "5-3",
-  //       text: "#Comment",
-  //     },
-  //     {
-  //       id: "5-4",
-  //       text: "/* Comment */",
-  //     },
-  //   ],
-  //   answer: "5-1",
+    Qn: 5,
+    question: "What is the correct syntax to write an HTML comment?",
+    options: [
+      {
+        id: "5-1",
+        text: "<!--Comment-->",
+      },
+      {
+        id: "5-2",
+        text: "//Coment",
+      },
+      {
+        id: "5-3",
+        text: "#Comment",
+      },
+      {
+        id: "5-4",
+        text: "/* Comment */",
+      },
+    ],
+    answer: "5-1",
   },
   {
     Qn: 6,
@@ -193,27 +193,27 @@ const questionList = [
     answer: "8-4",
   },
   {
-  //   Qn: 9,
-  //   question: "Which of the following is not a type of combinator?",
-  //   options: [
-  //     {
-  //       id: "9-1",
-  //       text: ">",
-  //     },
-  //     {
-  //       id: "9-2",
-  //       text: "~",
-  //     },
-  //     {
-  //       id: "9-3",
-  //       text: "+",
-  //     },
-  //     {
-  //       id: "9-4",
-  //       text: "*",
-  //     },
-  //   ],
-  //   answer: "9-4",
+    Qn: 9,
+    question: "Which of the following is not a type of combinator?",
+    options: [
+      {
+        id: "9-1",
+        text: ">",
+      },
+      {
+        id: "9-2",
+        text: "~",
+      },
+      {
+        id: "9-3",
+        text: "+",
+      },
+      {
+        id: "9-4",
+        text: "*",
+      },
+    ],
+    answer: "9-4",
   },
   {
     Qn: 10,

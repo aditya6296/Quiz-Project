@@ -68,8 +68,8 @@ function QuestionList({ questions }) {
     <>
       <div className="Question-box">
         {currentQuestion < questions.length &&
-          questions.map((elem) => {
-            return (
+          questions.map((elem) => { console.log(elem);
+;            return (
               <div
                 key={elem.Qn}
                 className={`question_item ${
