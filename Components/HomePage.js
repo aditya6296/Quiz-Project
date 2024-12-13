@@ -14,7 +14,7 @@ const HomePage = () => {
             placeholder="Please enter your name"
           /></div>
           <div id="link">
-            <Link to="/quiz">Start Quiz</=>
+            <Link to="/quiz">Start Quiz</>
           </div>
         </div>
       </div>
