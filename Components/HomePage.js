@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import "./Home.css";
 
+
 const HomePage = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const HomePage = () => {
             placeholder="Please enter your name"
           /></div>
           <div id="link">
-            <a href="/quiz">Start Quiz</a>
+            <Link to="/quiz">Start Quiz</=>
           </div>
         </div>
       </div>
