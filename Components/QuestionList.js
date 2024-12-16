@@ -7,9 +7,7 @@ const generateAnswerDefaultObject = (questionsObj) => {
 
   questionsObj.forEach(({ Qn, answer }) => {
     ans[Qn] = null;
-    // console.log(Qn);
     ans1[answer] = null;
-    // console.log(answer);
   });
   return ans;
 };
@@ -21,14 +19,12 @@ function QuestionList({ questions }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [timer, setTimer] = useState(15);
-  // console.log(selectAnswer);
 
   const handleNext = () => {
     setTimeout(() => {
       setCurrentQuestion(currentQuestion + 1);
       setTimer(15);
     }, 1000);
-    // console.log(currentQuestion);
   };
 
   const activeQuestion = questions[currentQuestion];
@@ -68,8 +64,9 @@ function QuestionList({ questions }) {
     <>
       <div className="Question-box">
         {currentQuestion < questions.length &&
-          questions.map((elem) => { console.log(elem);
-;            return (
+          questions.map((elem) => {
+            console.log(elem);
+            return (
               <div
                 key={elem.Qn}
                 className={`question_item ${
@@ -79,11 +76,7 @@ function QuestionList({ questions }) {
               >
                 <div className="timer">
                   <h2>Quiz</h2>
-                  <p>
-                    {/* Time Remaining: {minutes < 10 ? "0" + minutes : minutes}:
-                  {seconds < 10 ? "0" + seconds : seconds} */}
-                    time Remaining: {timer}
-                  </p>
+                  <p>time Remaining: {timer}</p>
                 </div>
                 {/* questions */}
                 <div className="question-heading">
@@ -111,7 +104,6 @@ function QuestionList({ questions }) {
                     ) {
                       cssClass = "wrong-answer";
                     }
-                    // console.log(cssClass);
                     return (
                       <div key={opt.id} className="option-btn">
                         <button
@@ -132,12 +124,13 @@ function QuestionList({ questions }) {
             );
           })}
 
-        {currentQuestion == questions.length && <div className="complete_page">
-         
-          <h1>Quiz Completed !</h1>
-          <h2>Your score is: {score}</h2>
-          <h1>Thanks for participating !</h1>
-          </div>}
+        {currentQuestion == questions.length && (
+          <div className="complete_page">
+            <h1>Quiz Completed !</h1>
+            <h2>Your score is: {score}</h2>
+            <h1>Thanks for participating !</h1>
+          </div>
+        )}
       </div>
     </>
   );

@@ -1,7 +1,4 @@
-
-
 body {
-  
   /* background-color: rgb(94, 186, 229); */
   /* background-color: rgb(100, 97, 97); */
   /* background-color: black; */
@@ -24,7 +21,6 @@ body {
   }
   &.hide-que {
     display: none;
-   
   }
 }
 
@@ -97,30 +93,30 @@ body {
   margin: 1rem 0;
 }
 
-
 .complete_page {
-  height: 50vh;
-  width: 60%;
+  width: 700px;
+  height: 300px;
+  color: white;
   border: 2px solid white;
-  margin: 8rem 15rem;
+  /* margin: 8rem 15rem; */
   text-align: center;
+  
 
-  h1{
+  h1 {
     color: white;
     margin: 3rem;
   }
-  h2{
+  h2 {
     color: white;
     margin: 2rem;
   }
-
 }
 
-/* .complete_text {
-  
-  height: 10vh;
-  width: 40%;
-  border: 2px solid white;
-
-
+/* @media screen and  (min-width: 400px) {
+      .complete_page {
+        width: 50%;
+        border: 2px solid white;
+        margin: auto;
+        height: 50vh;
+      }
 } */
