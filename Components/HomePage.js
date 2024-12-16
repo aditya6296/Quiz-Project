@@ -15,8 +15,6 @@ const HomePage = () => {
     }
   };
 
-
-  
   return (
     <>
       <div className="Main-home">

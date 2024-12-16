@@ -29,216 +29,216 @@ const questionList = [
     ],
     answer: "1-4",
   },
-  // {
-  //   Qn: 2,
-  //   question:
-  //     "Which choice is not a value of the type attribute of the <input> element?",
-  //   options: [
-  //     {
-  //       id: "2-1",
-  //       text: "range",
-  //     },
-  //     {
-  //       id: "2-2",
-  //       text: "address",
-  //     },
-  //     {
-  //       id: "2-3",
-  //       text: "date",
-  //     },
-  //     {
-  //       id: "2-4",
-  //       text: "password",
-  //     },
-  //   ],
-  //   answer: "2-2",
-  // },
-  // {
-  //   Qn: 3,
-  //   question: "Which HTML element is not considered a landmark element?",
-  //   options: [
-  //     {
-  //       id: "3-1",
-  //       text: "<form>",
-  //     },
-  //     {
-  //       id: "3-2",
-  //       text: "<ul>",
-  //     },
-  //     {
-  //       id: "3-3",
-  //       text: "<main>",
-  //     },
-  //     {
-  //       id: "3-4",
-  //       text: "<nav>",
-  //     },
-  //   ],
-  //   answer: "3-2",
-  // },
-  // {
-  //   Qn: 4,
-  //   question: "Which of the following colors contain equal amounts of RBG?",
-  //   options: [
-  //     {
-  //       id: "4-1",
-  //       text: "White",
-  //     },
-  //     {
-  //       id: "4-2",
-  //       text: "Gray",
-  //     },
-  //     {
-  //       id: "4-3",
-  //       text: "Black",
-  //     },
-  //     {
-  //       id: "4-4",
-  //       text: "All of these",
-  //     },
-  //   ],
-  //   answer: "4-4",
-  // },
-  // {
-  //   Qn: 5,
-  //   question: "What is the correct syntax to write an HTML comment?",
-  //   options: [
-  //     {
-  //       id: "5-1",
-  //       text: "<!--Comment-->",
-  //     },
-  //     {
-  //       id: "5-2",
-  //       text: "//Coment",
-  //     },
-  //     {
-  //       id: "5-3",
-  //       text: "#Comment",
-  //     },
-  //     {
-  //       id: "5-4",
-  //       text: "/* Comment */",
-  //     },
-  //   ],
-  //   answer: "5-1",
-  // },
-  // {
-  //   Qn: 6,
-  //   question: "Which of the following tags doesn’t require a closing tag?",
-  //   options: [
-  //     {
-  //       id: "6-1",
-  //       text: "<br>",
-  //     },
-  //     {
-  //       id: "6-2",
-  //       text: "<hr>",
-  //     },
-  //     {
-  //       id: "6-3",
-  //       text: "Both A and B",
-  //     },
-  //     {
-  //       id: "6-4",
-  //       text: "None of the above",
-  //     },
-  //   ],
-  //   answer: "6-1",
-  // },
-  // {
-  //   Qn: 7,
-  //   question: "In how many ways can CSS be written in?",
-  //   options: [
-  //     {
-  //       id: "7-1",
-  //       text: "One",
-  //     },
-  //     {
-  //       id: "7-2",
-  //       text: "Two",
-  //     },
-  //     {
-  //       id: "7-3",
-  //       text: "Three",
-  //     },
-  //     {
-  //       id: "7-4",
-  //       text: "Four",
-  //     },
-  //   ],
-  //   answer: "7-3",
-  // },
-  // {
-  //   Qn: 8,
-  //   question:
-  //     "Which of the following is an appropriate value for the overflow element?",
-  //   options: [
-  //     {
-  //       id: "8-1",
-  //       text: "scroll",
-  //     },
-  //     {
-  //       id: "8-2",
-  //       text: "hidden",
-  //     },
-  //     {
-  //       id: "8-3",
-  //       text: "auto",
-  //     },
-  //     {
-  //       id: "8-4",
-  //       text: "all of these",
-  //     },
-  //   ],
-  //   answer: "8-4",
-  // },
-  // {
-  //   Qn: 9,
-  //   question: "Which of the following is not a type of combinator?",
-  //   options: [
-  //     {
-  //       id: "9-1",
-  //       text: ">",
-  //     },
-  //     {
-  //       id: "9-2",
-  //       text: "~",
-  //     },
-  //     {
-  //       id: "9-3",
-  //       text: "+",
-  //     },
-  //     {
-  //       id: "9-4",
-  //       text: "*",
-  //     },
-  //   ],
-  //   answer: "9-4",
-  // },
-  // {
-  //   Qn: 10,
-  //   question:
-  //     "Which of the following is not the property of the CSS box model?",
-  //   options: [
-  //     {
-  //       id: "10-1",
-  //       text: "margin",
-  //     },
-  //     {
-  //       id: "10-2",
-  //       text: "color",
-  //     },
-  //     {
-  //       id: "10-3",
-  //       text: "width",
-  //     },
-  //     {
-  //       id: "10-4",
-  //       text: "height",
-  //     },
-  //   ],
-  //   answer: "10-3",
-  // },
+  {
+    Qn: 2,
+    question:
+      "Which choice is not a value of the type attribute of the <input> element?",
+    options: [
+      {
+        id: "2-1",
+        text: "range",
+      },
+      {
+        id: "2-2",
+        text: "address",
+      },
+      {
+        id: "2-3",
+        text: "date",
+      },
+      {
+        id: "2-4",
+        text: "password",
+      },
+    ],
+    answer: "2-2",
+  },
+  {
+    Qn: 3,
+    question: "Which HTML element is not considered a landmark element?",
+    options: [
+      {
+        id: "3-1",
+        text: "<form>",
+      },
+      {
+        id: "3-2",
+        text: "<ul>",
+      },
+      {
+        id: "3-3",
+        text: "<main>",
+      },
+      {
+        id: "3-4",
+        text: "<nav>",
+      },
+    ],
+    answer: "3-2",
+  },
+  {
+    Qn: 4,
+    question: "Which of the following colors contain equal amounts of RBG?",
+    options: [
+      {
+        id: "4-1",
+        text: "White",
+      },
+      {
+        id: "4-2",
+        text: "Gray",
+      },
+      {
+        id: "4-3",
+        text: "Black",
+      },
+      {
+        id: "4-4",
+        text: "All of these",
+      },
+    ],
+    answer: "4-4",
+  },
+  {
+    Qn: 5,
+    question: "What is the correct syntax to write an HTML comment?",
+    options: [
+      {
+        id: "5-1",
+        text: "<!--Comment-->",
+      },
+      {
+        id: "5-2",
+        text: "//Coment",
+      },
+      {
+        id: "5-3",
+        text: "#Comment",
+      },
+      {
+        id: "5-4",
+        text: "/* Comment */",
+      },
+    ],
+    answer: "5-1",
+  },
+  {
+    Qn: 6,
+    question: "Which of the following tags doesn’t require a closing tag?",
+    options: [
+      {
+        id: "6-1",
+        text: "<br>",
+      },
+      {
+        id: "6-2",
+        text: "<hr>",
+      },
+      {
+        id: "6-3",
+        text: "Both A and B",
+      },
+      {
+        id: "6-4",
+        text: "None of the above",
+      },
+    ],
+    answer: "6-1",
+  },
+  {
+    Qn: 7,
+    question: "In how many ways can CSS be written in?",
+    options: [
+      {
+        id: "7-1",
+        text: "One",
+      },
+      {
+        id: "7-2",
+        text: "Two",
+      },
+      {
+        id: "7-3",
+        text: "Three",
+      },
+      {
+        id: "7-4",
+        text: "Four",
+      },
+    ],
+    answer: "7-3",
+  },
+  {
+    Qn: 8,
+    question:
+      "Which of the following is an appropriate value for the overflow element?",
+    options: [
+      {
+        id: "8-1",
+        text: "scroll",
+      },
+      {
+        id: "8-2",
+        text: "hidden",
+      },
+      {
+        id: "8-3",
+        text: "auto",
+      },
+      {
+        id: "8-4",
+        text: "all of these",
+      },
+    ],
+    answer: "8-4",
+  },
+  {
+    Qn: 9,
+    question: "Which of the following is not a type of combinator?",
+    options: [
+      {
+        id: "9-1",
+        text: ">",
+      },
+      {
+        id: "9-2",
+        text: "~",
+      },
+      {
+        id: "9-3",
+        text: "+",
+      },
+      {
+        id: "9-4",
+        text: "*",
+      },
+    ],
+    answer: "9-4",
+  },
+  {
+    Qn: 10,
+    question:
+      "Which of the following is not the property of the CSS box model?",
+    options: [
+      {
+        id: "10-1",
+        text: "margin",
+      },
+      {
+        id: "10-2",
+        text: "color",
+      },
+      {
+        id: "10-3",
+        text: "width",
+      },
+      {
+        id: "10-4",
+        text: "height",
+      },
+    ],
+    answer: "10-3",
+  },
   // {
   //   Qn: 11,
   //   question:

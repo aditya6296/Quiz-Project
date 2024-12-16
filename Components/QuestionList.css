@@ -98,9 +98,8 @@ body {
   height: 300px;
   color: white;
   border: 2px solid white;
-  /* margin: 8rem 15rem; */
+  margin: 8rem 19rem;
   text-align: center;
-  
 
   h1 {
     color: white;
@@ -112,11 +111,11 @@ body {
   }
 }
 
-/* @media screen and  (min-width: 400px) {
-      .complete_page {
-        width: 50%;
-        border: 2px solid white;
-        margin: auto;
-        height: 50vh;
-      }
-} */
+@media screen and (max-width: 400px) {
+  .complete_page {
+    width: 80%;
+    border: 2px solid white;
+    margin: 25px auto;
+    height: 90vh;
+  }
+}

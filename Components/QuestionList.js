@@ -35,7 +35,7 @@ function QuestionList({ questions }) {
     let time;
     if (timer > 0) {
       time = setInterval(() => {
-        console.log("hii", timer);
+        // console.log("hii", timer);
         setTimer((prev) => {
           if (prev > 0) return prev - 1;
           else return 0;
